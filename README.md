@@ -9,7 +9,7 @@
   How can i bring all my dotfiles with me ? 
 
   ** VIM **  
-  '''
+  ```
     .vimrc  
     .vim/plugin/comments.vim  
-  '''
+  ```
