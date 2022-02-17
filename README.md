@@ -8,7 +8,7 @@
   How to make as fast as possible a pc switch? 
   How can i bring all my dotfiles with me ? 
 
-  **VIM**  
+  **vim**  
   ```
     .vimrc  
     .vim/plugin/comments.vim  
