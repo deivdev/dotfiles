@@ -10,6 +10,8 @@
   Here we got with the bash.
   let's try to find a good portable arch, with aliases, and usefull stuff.
   We also need the incremental bash completion tool. Essential.
+  PS1 ecc. ecc. has crazy color. Really can't understand why so tricky syntax.
+
   ```
     .bashrc
     .bash_aliases
