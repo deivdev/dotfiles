@@ -16,6 +16,12 @@
     .config/wmbar/style.css
   ```
 
+  **git**
+  Maybe only one file needed. (Maybe)
+  ```
+    .gitconfig
+  ```
+
 ###### 17.02.2022
 
   A new laptop has come.
