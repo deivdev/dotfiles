@@ -15,4 +15,4 @@ then
   new=$(( current - $2 ))
 fi
 
-echo "$new" | tee "$file"
+echo "$new" | sudo tee "$file"
