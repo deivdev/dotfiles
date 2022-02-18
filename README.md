@@ -2,6 +2,10 @@
 
 ###### 18.02.2022
 
+  19.39  
+    Seems all ok.  
+    Wondering if gnome could be completely removed.
+
   Let's go ahead.
   Fedora installation is running on the new machine,
   but we need a lot of dotfiles yet.
