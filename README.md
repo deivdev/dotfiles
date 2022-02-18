@@ -5,8 +5,12 @@
   Let's go ahead.
   Fedora installation is running on the new machine,
   but we need a lot of dotfiles yet.
+  
+  **bash**  
+  Here we got with the bash.
+  let's try to find a good portable arch, with aliases, and usefull stuff.
 
-  **wm**
+  **wm**  
   The Window Manager could be Sway, for Wayland or i3 for X.
   Have a look also at the default term.
   ```
@@ -16,7 +20,7 @@
     .config/wmbar/style.css
   ```
 
-  **git**
+  **git**  
   Maybe only one file needed. (Maybe)
   ```
     .gitconfig
