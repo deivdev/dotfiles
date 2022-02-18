@@ -9,6 +9,11 @@
   **bash**  
   Here we got with the bash.
   let's try to find a good portable arch, with aliases, and usefull stuff.
+  We also need the incremental bash completion tool. Essential.
+  ```
+    .bashrc
+    .bash_aliases
+  ```
 
   **wm**  
   The Window Manager could be Sway, for Wayland or i3 for X.
