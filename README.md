@@ -16,6 +16,19 @@
     sudo dnf install bash-completion
   ```
 
+  **alacritty**  
+  Not mandatory but usefull.
+  ```
+    .config/alacritty/alacritty.yml
+  ```
+
+  **sway background**
+  Set up a Firewatch cool background!
+  ```
+    cp imgs/background.jpg /usr/share/backgrounds/background.jpg
+  ```
+
+
 ###### 18.02.2022
 
   19.39  
