@@ -13,12 +13,16 @@ set $left h
 set $down j
 set $up k
 set $right l
+# Colors
+set $bg #2b303b
+set $fg #ffffff
+set $br #64727D
 # Your preferred terminal emulator
 set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | dmenu | xargs swaymsg exec --
+set $menu dmenu_run -nb '$bg' -sf '#1e1e1e' -sb '#f4800d' -nf '#F4800d' -fn 'monospace 14'
 
 #Font
 font pango:Monospace 12
@@ -231,17 +235,9 @@ bar {
     }
 }
 
-
 #
 # Color Theme
 #
-default_border none
-
-# Set colors
-set $bg #2b303b
-set $fg #ffffff
-set $br #64727D
-
 # class                 border  backgr. text    indicator child_border
 client.focused          $br     $br     $fg     $bg       $br
 client.focused_inactive $bg     $bg     $fg     $bg       $bg

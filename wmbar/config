@@ -1,7 +1,7 @@
 {
   //https://raw.githubusercontent.com/Alexays/Waybar/master/resources/config
 
-  "layer": "top", // Waybar at top layer
+  "layer": "bottom", // Waybar at top layer
   "position": "top", // Waybar position (top|bottom|left|right)
   "height": 40, // Waybar height (to be removed for auto height)
   // "width": 1280, // Waybar width
