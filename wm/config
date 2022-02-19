@@ -26,7 +26,7 @@ font pango:Monospace 12
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/default.png fill
+output * bg /usr/share/backgrounds/background.jpg fill
 #
 # Example configuration:
 #
@@ -203,12 +203,12 @@ bindsym $mod+r mode "resize"
 # Keyboard Control
 #
 
-bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+ unmute
-bindsym XF86AudioLowerVolume exec amixer -q set Master 5%- unmute
-bindsym XF86AudioMute exec amixer -q set Master toggle
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 
-bindsym XF86MonBrightnessUp exec sh ~/.config/sway/backlight.sh -inc 20
-bindsym XF86MonBrightnessDown exec sh ~/.config/sway/backlight.sh -dec 20
+bindsym XF86MonBrightnessUp exec sh ~/.config/sway/backlight.sh -inc 1
+bindsym XF86MonBrightnessDown exec sh ~/.config/sway/backlight.sh -dec 1
 
 
 #

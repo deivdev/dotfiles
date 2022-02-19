@@ -1,5 +1,21 @@
 # This will become the deivdev Handbook. 
 
+###### 19.02.2022
+
+  11.35
+
+  Gnome killed.
+  Just install Minimal Fedora with NetworkManager and then few install.
+
+  ```
+    sudo dnf install sway
+    sudo dnf install waybar
+    sudo dnf install pulseaudio
+    sudo dnf install pulseaudio
+    sudo dnf install pulseaudio-utils
+    sudo dnf install bash-completion
+  ```
+
 ###### 18.02.2022
 
   19.39  
