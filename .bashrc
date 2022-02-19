@@ -1,4 +1,5 @@
 # .bashrc
+export TERM=linux
 
 # Source global definitions
   if [ -f /etc/bashrc ]; then
@@ -30,6 +31,8 @@
   then
     bind '"\e[A": history-search-backward'
     bind '"\e[B": history-search-forward'
+    bind '"\e[3": delete-char'
+    bind '"\e[2": paste-from-clipboard'
   fi
 
 # Git branch on bash

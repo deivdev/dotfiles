@@ -2,6 +2,12 @@
 
 ###### 19.02.2022
 
+  18.47
+    Strange behaviour on ssh. Need to add to .basrch, but clearly don't understand the reason.
+    ```
+      export TERM=linux
+    ```
+
   11.35  
     Gnome killed.  
     Just install Minimal Fedora with NetworkManager and then few install.  
