@@ -2,10 +2,9 @@
 
 ###### 19.02.2022
 
-  11.35
-
-  Gnome killed.
-  Just install Minimal Fedora with NetworkManager and then few install.
+  11.35  
+    Gnome killed.  
+    Just install Minimal Fedora with NetworkManager and then few install.  
 
   ```
     sudo dnf install sway
@@ -17,13 +16,13 @@
   ```
 
   **alacritty**  
-  Not mandatory but usefull.
+  Not mandatory but usefull.  
   ```
     .config/alacritty/alacritty.yml
   ```
 
-  **sway background**
-  Set up a Firewatch cool background!
+  **sway background**  
+  Set up a Firewatch cool background!  
   ```
     cp imgs/background.jpg /usr/share/backgrounds/background.jpg
   ```
