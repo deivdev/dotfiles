@@ -58,6 +58,12 @@
   **wm**  
   The Window Manager could be Sway, for Wayland or i3 for X.
   Have a look also at the default term.
+  wm/ folder needs to be on sway/
+  
+  ```
+  mkdir .config/sway
+  cp .config/wm/* .config/sway/
+  ```
   ```
     .config/wm/config
     .config/wm/backlight

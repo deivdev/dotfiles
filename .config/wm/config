@@ -30,7 +30,7 @@ font pango:Monospace 12
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/background.jpg fill
+#output * bg /usr/share/backgrounds/background.jpg fill
 #
 # Example configuration:
 #
