@@ -1,4 +1,4 @@
-# This will become the deivdev Handbook. 
+# This will be the deivdev Handbook. 
 
 ###### 19.02.2022
 
